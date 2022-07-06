@@ -1,0 +1,59 @@
+.chartContainer {
+    height: 450px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.loading {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+.loading:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid rgb(156, 156, 156);
+    border-color: rgb(187, 187, 187) transparent rgb(187, 187, 187) transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+.err {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2rem;
+}
+.err p:first-child{
+    margin:0;
+    font-size: 1.5rem;
+}
+.err p:last-child {
+    margin: 0;
+    font-size: 1.2rem;
+}
+.err button {
+    background-color: rgb(1,113,236);
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0.3rem;
+    border: 1px solid black;
+    box-shadow: 0 3px 5px rgba(68, 77, 254, 0.55);
+    transition: all 0.3s;
+    margin-top: 1rem;
+}
+.err button:hover {
+    background-color: rgb(227, 227, 227);
+    color: black;
+    box-shadow: none;
+}
+@keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}

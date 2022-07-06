@@ -1,0 +1,19 @@
+.controls {
+    background-color: black;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.title {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.selectors {
+    display: flex;
+    justify-content: center;
+}
+.selectors .selectCont {
+    width: 9rem;
+}
