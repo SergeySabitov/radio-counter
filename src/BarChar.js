@@ -68,13 +68,14 @@ import styles from './BarChar.module.css'
                     color: 'black'
                 },
                 showline: false,
-                    //domain: [0, 1],
+                fixedrange: true,
                 showgrid: true,
                 rangemode: "tozero"
             },
             yaxis: {
                 zeroline: false, 
-                rangemode: "tozero"
+                rangemode: "tozero",
+                fixedrange: true,
             },
             margin: {
                 l: 50,
